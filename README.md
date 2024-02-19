@@ -1,16 +1,16 @@
 # proyecto-pig-game
 
+Este es un juego donde lanzas un dado y tratas de acumular puntos. El primer jugador en llegar a 100 puntos gana.
 
-- Fork del repositorio
-- git clone para tenerlo en local
-- Añadimos el proyecto dentro de gitKraken
-- Abrimos la carpeta del proyecto dentro de Visual Code y con su terminal ejecutamos npm install
-- La documentación la tenemos en Obsidian en el apartado 4.Fundamentos del DOM
-- Añadir script llamado deploy para el envio del programa al servidor en la nube (se asocia al rsync)
+# Cómo Jugar
+Haz clic en "Roll dice" para lanzar el dado.
+Si sacas un 1, pierdes todos tus puntos.
+Haz clic en "Hold" para mantener tus puntos y pasar al siguiente jugador.
+El primer jugador en llegar a 100 puntos gana.
 
-## opcional
+# Contribuir
+Haz clic en el botón "Fork" para copiar este repositorio.
+Realiza tus cambios en tu propia copia del juego.
+Cuando estés listo, haz clic en "Pull" para compartir tus mejoras.
 
-- Añadir script llamado build para que haga un minify del css, html y javascript
-    - Investigar paquetes que podemos instalar de npm
-    - Instalar paquetes con npm install
-    - Configurar paquetes si necesario (leer doc de cada paquete)
+LETSENCRYPT_HOST =https://javier.certweb.infenlaces.com/pig-game/
